@@ -6,8 +6,8 @@
 
 package com.grotto.grotto.Main;
 
-import com.grotto.grotto.service.Jms;
-import com.grotto.grotto.service.JmsInt;
+import com.grotto.grotto.service.JMS.Imp.Jms;
+import com.grotto.grotto.service.JMS.Interface.JmsInt;
 import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.ObjectMessage;

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.grotto.grotto.service;
+package com.grotto.grotto.service.JMS.Interface;
 
 /**
  *

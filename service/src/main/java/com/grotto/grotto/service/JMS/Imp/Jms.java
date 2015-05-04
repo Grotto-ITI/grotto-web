@@ -4,8 +4,9 @@
  * and open the template in the editor.
  */
 
-package com.grotto.grotto.service;
+package com.grotto.grotto.service.JMS.Imp;
 
+import com.grotto.grotto.service.JMS.Interface.JmsInt;
 import com.grotto.grotto.entity.Cells;
 import javax.jms.JMSException;
 import javax.jms.Message;
