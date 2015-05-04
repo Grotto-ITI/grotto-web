@@ -8,7 +8,6 @@ package com.grotto.grotto.model.home;
 import java.io.Serializable;
 import java.util.List;
 
-
 /**
  *
  * @author Mostafa_ITI
@@ -17,7 +16,7 @@ import java.util.List;
  */
 public interface AbstractDaoInt<T, PK extends Serializable> {
 
-    public void create(T obj);
+    public void persist(T obj);
 
     public T read(PK id);
 

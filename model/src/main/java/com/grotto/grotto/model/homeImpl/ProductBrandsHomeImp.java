@@ -5,7 +5,6 @@
  */
 package com.grotto.grotto.model.homeImpl;
 
-
 import com.grotto.grotto.model.home.AbstractDaoInt;
 //import dao.AbstractDaoImp;
 import java.io.Serializable;
@@ -15,10 +14,10 @@ import com.grotto.grotto.model.home.pojo.ProductBrands;
  *
  * @author Mostafa_ITI
  */
-public class ProductBrandsHomeImp extends AbstractDaoImp<ProductBrands,Integer> implements AbstractDaoInt<ProductBrands, Integer>{
+public class ProductBrandsHomeImp extends AbstractDaoImp<ProductBrands, Integer> implements AbstractDaoInt<ProductBrands, Integer> {
 
     public ProductBrandsHomeImp() {
-        setClassInstance(ProductBrands.class);
+        super(ProductBrands.class);
     }
-    
+
 }

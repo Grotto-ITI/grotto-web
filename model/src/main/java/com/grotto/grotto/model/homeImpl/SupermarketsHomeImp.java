@@ -17,7 +17,7 @@ import com.grotto.grotto.model.home.pojo.Supermarkets;
 public class SupermarketsHomeImp extends AbstractDaoImp<Supermarkets, Integer> implements AbstractDaoInt<Supermarkets, Integer>{
 
     public SupermarketsHomeImp() {
-        setClassInstance(Supermarkets.class);
+        super(Supermarkets.class);
     }
     
 }

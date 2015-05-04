@@ -8,15 +8,14 @@ package com.grotto.grotto.model.homeImpl;
 import com.grotto.grotto.model.home.AbstractDaoInt;
 import com.grotto.grotto.model.home.pojo.EmergencyList;
 
-
 /**
  *
  * @author Mostafa_ITI
  */
-public class EmergencyListHomeImp extends AbstractDaoImp<EmergencyList, Integer> implements AbstractDaoInt<EmergencyList, Integer>{
+public class EmergencyListHomeImp extends AbstractDaoImp<EmergencyList, Integer> implements AbstractDaoInt<EmergencyList, Integer> {
 
     public EmergencyListHomeImp() {
-        setClassInstance(EmergencyList.class);
+        super(EmergencyList.class);
     }
-    
+
 }

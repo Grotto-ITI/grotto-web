@@ -17,7 +17,7 @@ import com.grotto.grotto.model.home.pojo.ShelfCells;
 public class ShelfCellsHomeImp extends AbstractDaoImp<ShelfCells, Integer> implements AbstractDaoInt<ShelfCells, Integer>{
 
     public ShelfCellsHomeImp() {
-        setClassInstance(ShelfCells.class);
+        super(ShelfCells.class);
     }
     
 }

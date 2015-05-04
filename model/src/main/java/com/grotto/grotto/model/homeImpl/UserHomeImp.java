@@ -6,6 +6,7 @@
 package com.grotto.grotto.model.homeImpl;
 
 import com.grotto.grotto.model.home.AbstractDaoInt;
+import com.grotto.grotto.model.home.UserHomeInt;
 import com.grotto.grotto.model.home.pojo.Users;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
@@ -16,10 +17,10 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Transactional(readOnly = false)
 @Repository
-public class UserHomeImp extends AbstractDaoImp<Users, Integer> implements AbstractDaoInt<Users, Integer> {
+public class UserHomeImp extends AbstractDaoImp<Users, Integer> implements AbstractDaoInt<Users, Integer>, UserHomeInt {
 
     public UserHomeImp() {
-        setClassInstance(Users.class);
+        super(Users.class);
     }
 
 }

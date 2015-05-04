@@ -5,7 +5,6 @@
  */
 package com.grotto.grotto.model.homeImpl;
 
-
 import com.grotto.grotto.model.home.AbstractDaoInt;
 import com.grotto.grotto.model.home.pojo.HubsHasSupermarkets;
 
@@ -13,10 +12,10 @@ import com.grotto.grotto.model.home.pojo.HubsHasSupermarkets;
  *
  * @author Mostafa_ITI
  */
-public class HubsHasSupermarketsHomeImp extends AbstractDaoImp<HubsHasSupermarkets, Integer> implements AbstractDaoInt<HubsHasSupermarkets, Integer>{
+public class HubsHasSupermarketsHomeImp extends AbstractDaoImp<HubsHasSupermarkets, Integer> implements AbstractDaoInt<HubsHasSupermarkets, Integer> {
 
     public HubsHasSupermarketsHomeImp() {
-        setClassInstance(HubsHasSupermarkets.class);
+        super(HubsHasSupermarkets.class);
     }
-    
+
 }
